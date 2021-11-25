@@ -1,7 +1,7 @@
-package Chess;
+package chess;
 
-import Boardgame.Board;
-import Boardgame.Piece;
+import boardgame.Board;
+import boardgame.Piece;
 
 public class ChessPiece extends Piece {
 	

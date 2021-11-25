@@ -1,4 +1,4 @@
-package Boardgame;
+package boardgame;
 
 public class Board {
 	
@@ -34,5 +34,12 @@ public class Board {
 	public Piece piece(Position pos) {
 		return pieces[pos.getRow()][pos.getColumn()];
 	}
+	
+	public void placePiece(Piece p, Position pos) {
+		pieces[pos.getRow()][pos.getColumn()] = p;
+		p.position = pos;
+	}
+	
+	
 
 }
